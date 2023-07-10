@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Mercy_Christole;
+    src: url(../fuente/MercyChristole.ttf) format('truetype');
+}
+*{
+    margin: 2px;
+    padding: 50px;
+}
+
+.banner{
+    width: 900px;
+    height: 100px;
+    border: 10px solid rgb(44, 49, 65);
+    background-color: rgb(22, 32, 63);
+    padding: 50px auto;
+    margin: 20px;
+    box-shadow: 0 0 50px blueviolet;
+}
+h1{
+    font-size: 30px;
+    padding: 2px;
+    color: aliceblue;
+    font-family: 'Belanosima', sans-serif;
+}
+p{
+    font-size: 20px;
+    color: white;
+    font-family: Mercy_Christole;
+}

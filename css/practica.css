@@ -1,0 +1,42 @@
+/*DISEÑAR UNA CAJA CON DIMENSIONES CON 200 PX DE ANCHO Y 200PX DE ALTURA, CON BORDE DE 1PX ESTILO SOLIDO Y
+EL COLOR PERSONALIZADO PROPIO.
+ESTA CAJA DEBE TENER ESQUINAS REDONDEADAS DE 20PX
+LA CAJA DEBE TENER UN MARGEN DE 50PX Y UN RELLENO(PADDING) DE 30PX
+LA CAJA DEBE ESTAR CENTRADA EN LA PAGINA.
+AGREGAR A LA CAJA UN TITULO QUE DIGA: "REFRAN DEL DIA" ESTE TITULO DEBE ESTAR CENTRADO Y DEBE TENER 
+UNA SOMBRA(SHADOW) CRITERIO DE USTEDES
+EL TEXTO DE USTEDES.*/
+
+body{
+    background-color: rgb(98, 151, 151);
+    margin: 0px;
+}
+.recuadro{
+    background-color: rgb(212, 208, 154);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 80px;
+    margin:  50px auto;
+    box-shadow: 0 0 40px #28134b;
+    transition-property: background-color,color;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(56, 243, 128),
+                 6px 6px 5px rgb(56, 206, 243),
+                 9px 9px 5px rgb(56, 115, 243);
+    text-align: center;
+    font-size: 40px;
+}
+p,li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.recuadro:hover{
+    background-color: #0F5464;
+    color: white
+}
